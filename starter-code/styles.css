@@ -1,0 +1,76 @@
+:root {
+    font-size: 15px;
+    --blanco: #ffffff;
+    --violeta: indigo;
+
+    @media only screen and (max-width: 1024px) {}
+}
+
+::before {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: var(--violeta);
+
+    color: white
+}
+
+.boton {
+    padding: 0.5rem 1rem;
+    text-align: center;
+    font-size: 30px;
+
+    color: indigo;
+
+}
+
+header .titulo {
+    font-size: 50px;
+    text-align: center;
+}
+
+header .cabecera1 {
+    text-align: left;
+    font-size: 20px;
+}
+
+header .cabecera2 {
+    text-align: right;
+    font-size: 15px;
+
+}
+
+section h1 {
+    color: indigo;
+
+
+
+
+}
+
+section h2 {
+    color: indigo;
+
+}
+
+section h3 {
+    color: rgb(94, 99, 98);
+
+}
+
+section .info {
+    text-align: center;
+}
+
+section .info2 {
+    text-align: center;
+
+}
+
+section .info3 {
+    text-align: center;
+}
